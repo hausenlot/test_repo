@@ -1,5 +1,6 @@
 # Okay it does work.
-### I was using tailwind direct classes and tried to use @apply to make it cleaner. Found out that you can't use it on cdn. So i gather my AI friends and talk to them like a retard and as a good friend them to me a professional retard two of them said just fucken give up and throw me to gulag then gigachad claude walks like a pillar man and slaps me with 10 commandments like tablet in my face when i was walking in the rain depressed with in_the_end.mp4 plays in the background. It was fucken amazing I told you.
+https://hausenlot.github.io/test_repo/
+### I was using tailwind direct classes and tried to use @apply to make it cleaner. Found out that you can't use it on cdn. So i gather my AI friends and talk to them like a retard that I am and like in real world two of them said fucken give up beat muh ass up like in way a retard like me will appreaciate then gigachad claude walks like a pillar man and slaps me with 10 commandments tablet that is still steaming out of the oven and then slaps it in my face when i was walking in the rain depressed while in_the_end.mp4 plays in the background. It was fucken amazing I tell ya.
 
 ### Steps:
 1. Finish your damn static website.
