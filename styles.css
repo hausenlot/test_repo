@@ -1,0 +1,122 @@
+/* styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+.app {
+    @apply bg-gray-50;
+}
+
+/* Navbar */
+.navbar {
+    @apply bg-white shadow-lg;
+}
+
+.navbar-container {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.navbar-content {
+    @apply flex justify-between;
+}
+
+.navbar-brand {
+    @apply flex space-x-7;
+}
+
+.brand-link {
+    @apply flex items-center py-4;
+}
+
+.brand-text {
+    @apply font-semibold text-gray-800 text-lg;
+}
+
+.nav-links {
+    @apply hidden md:flex items-center space-x-6;
+}
+
+.nav-link {
+    @apply py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300;
+}
+
+/* Hero Section */
+.hero {
+    @apply bg-white py-20;
+}
+
+.hero-container {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.hero-content {
+    @apply text-center;
+}
+
+.hero-title {
+    @apply text-4xl md:text-6xl font-bold text-gray-800 mb-4;
+}
+
+.hero-subtitle {
+    @apply text-lg text-gray-600 mb-8;
+}
+
+.primary-button {
+    @apply bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300;
+}
+
+/* Features Section */
+.features {
+    @apply py-16 bg-gray-50;
+}
+
+.features-container {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.features-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-8;
+}
+
+.feature-card {
+    @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+.feature-title {
+    @apply text-xl font-semibold text-gray-800 mb-4;
+}
+
+.feature-text {
+    @apply text-gray-600;
+}
+
+/* Footer */
+.footer {
+    @apply bg-gray-800 text-white py-8;
+}
+
+.footer-container {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.footer-content {
+    @apply flex flex-col md:flex-row justify-between;
+}
+
+.footer-section {
+    @apply mb-4 md:mb-0;
+}
+
+.footer-title {
+    @apply text-lg font-semibold mb-2;
+}
+
+.footer-text {
+    @apply text-gray-400;
+}
+
+.footer-bottom {
+    @apply mt-8 text-center text-gray-400;
+}
